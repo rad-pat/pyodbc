@@ -98,8 +98,8 @@ inline void UNUSED(...) { }
 #include <alloca.h>
 #endif
 #define CDECL cdecl
-#define min(X,Y) ((X) < (Y) ? (X) : (Y))
-#define max(X,Y) ((X) > (Y) ? (X) : (Y))
+//#define min(X,Y) ((X) < (Y) ? (X) : (Y))
+//#define max(X,Y) ((X) > (Y) ? (X) : (Y))
 #define _alloca alloca
 inline void _strlwr(char* name)
 {
